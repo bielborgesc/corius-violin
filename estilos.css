@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Fonte-Titulo';
+    src: url(Imagens/Satisfy-Regular.ttf);
+}
+
+body {
+    background-image: url("Imagens/fundo-preto-1170x869.jpg");
+    color: white;
+}
+main{
+    width: 1000px;
+    background-color: orange;
+    color: black;
+    margin: -10px auto 0px auto;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+    text-indent: 25px;
+}
+/* Imagens */
+figure.foto-legenda{
+    position: relative;
+    border: 5px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0%;
+    transition: opacity 1s;
+    font-size: 30px;
+}
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+/*Formatação do Munu*/
+nav#Menu{
+    display: block;
+}
+nav#Menu ul{
+    list-style: none;
+    text-transform: capitalize;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+}
+nav#Menu li{
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    opacity: 50%;
+    color: white;
+}
+nav#Menu ul :hover{
+    background-color: black;
+    transition: background-color 1s;
+    color: white;
+    opacity: 1;
+
+}
+hgroup{
+    font-size: 30px;
+    left: 100px;
+    position: relative;
+    left: 20px;
+}
+nav#Menu a{
+    color: black;
+    text-decoration: none;
+}
+/* cabeçalho */
+header#cabecalho {
+    background-color: orange;
+    color: black;
+    font-family: 'Fonte-Titulo';
+}
+header#cabecalho img#icone{
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+    width: 175px;
+    height: 175px;
+}
+/* corpo */
+article{
+    display: block;
+    width: 600px;
+    float: left;
+    border-right: 1px dashed black ;
+    padding-right:20px ;
+}
+aside{
+    display: block;
+    width: 400x;
+    float: left;
+    border-left:1px dashed black ;
+    padding-left: 20px ;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px dashed black;
+}
+footer#rodape p {
+    text-align: center;
+}
+h3#titulo-principal {
+    font-family: 'Fonte-Titulo';
+    font-size: 30px;
+}
+article h3{
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+article p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

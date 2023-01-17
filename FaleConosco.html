@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="PrimeiraPagina.html">Primeira Pagina</a></li>
+            </ul>
+        </nav>
+        <h1>Fale Conosco</h1>
+    </header>
+    <main>
+        <section>
+            <header>
+                <h1>Preencha esse formulário e entraremos em contato:</h1>
+                <figure>
+                    <img src="Imagens\man-performing-on-stage-2102568.jpg" alt="Regente ministrando uma orquestra" height="400" width="500"><br>
+                    <figcaption>Regente ministrando uma orquestra de violinos</figcaption>
+                </figure>
+            </header>
+            <article>
+                <div>
+                    <form action="envio_dados.php" method="GET">
+                        <input type="text" name="nome" placeholder="digite seu Nome aqui" required><br>
+                        <input type="email" name="email" placeholder="@provedor.com" required><br>
+                        <input type="number" name="idade" placeholder="Idade" required step="1"><br>
+                        <input type="data-time" name="nascimento" ><br>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>Ficamos felizes em recebe-lo</footer>
+</body>
+</html>
